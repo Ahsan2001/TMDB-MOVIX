@@ -5,7 +5,7 @@ import Popular from './popular'
 import TopRated from './topRated'
 
 const Home = () => {
-  // document.title = "Home page";
+  document.title = "Welcome to Movix";
 
   return (
     <Layout>

@@ -5,6 +5,8 @@ import {
     FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
+import { FcLike } from "react-icons/fc";
+
 import ContentWrapper from "../ContentWrapper";
 
 
@@ -20,12 +22,19 @@ const Footer = () => {
                     <li className="menuItem">FAQ</li>
                 </ul>
                 <div className="infoText">
+
+
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                     do eiusmod tempor incididunt ut labore et dolore magna
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore eu fugiat nulla pariatur.
+
+                    <br />
+                    <br />
+                    <br />
+                    Made with <FcLike /> &nbsp;  Developed By <a href="https://github.com/Ahsan2001" target="_blank">M. Ahsan Shaikh</a>
                 </div>
                 <div className="socialIcons">
                     <span className="icon">

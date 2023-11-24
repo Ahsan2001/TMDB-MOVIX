@@ -61,15 +61,7 @@ body {
   }
 }
 
-
 @import "./stylesheets/mixins";
-
-@import "./stylesheets/home_page";
-@import "./stylesheets/explore_page";
-@import "./stylesheets/detail_page";
-@import "./stylesheets/search_page";
-@import "./stylesheets/404_page";
-
 @import "./stylesheets/header_component";
 @import "./stylesheets/footer_component";
 @import "./stylesheets/banner_component";
@@ -80,6 +72,11 @@ body {
 @import "./stylesheets/carousel_component";
 @import "./stylesheets/genres_component";
 @import "./stylesheets/video_popup_component";
-
+@import "./stylesheets/spinner_component";
+@import "./stylesheets/card_component";
+@import "./stylesheets/explore_page";
+@import "./stylesheets/detail_page";
+@import "./stylesheets/search_page";
+@import "./stylesheets/404_page";
 
 

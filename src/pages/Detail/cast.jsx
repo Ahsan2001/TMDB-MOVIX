@@ -4,6 +4,7 @@ import avatar from "../../assets/avatar.png";
 import { ContentWrapper, Img } from "../../components";
 
 const Cast = ({ data, loading }) => {
+
     const { url } = useSelector((state) => state.home);
 
     const skeleton = () => {
@@ -22,13 +23,11 @@ const Cast = ({ data, loading }) => {
                 {!loading ? (
                     <div className="listItems">
                         {data?.map((item) => {
-                            let imgUrl = item.profile_path
-                                ? url.profile + item.profile_path
-                                : avatar;
+                            let imgUrl = item.profile_path ? url.profile + item.profile_path : avatar;
                             return (
                                 <div key={item.id} className="listItem">
                                     <div className="profileImg">
-                                        <Img src={imgUrl} />
+                                        <Img src={imgUrl} alt={item?.name} />
                                     </div>
                                     <div className="name">{item.name}</div>
                                     <div className="character">

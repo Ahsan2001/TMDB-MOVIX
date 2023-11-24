@@ -7,4 +7,6 @@ export {default as ContentWrapper} from "./ContentWrapper";
 export {default as Carousel} from "./Carousel";
 export {default as VideoPopup} from "./VideoPopup";
 export {default as PlayIcon} from "./PlayIcon";
-export {default as Genres} from "./Genres"
+export {default as Genres} from "./Genres";
+export {default as Spinner} from "./Spinner";
+export {default as MovieCard} from "./Card";
