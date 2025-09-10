@@ -34,7 +34,7 @@ const Footer = () => {
                     <br />
                     <br />
                     <br />
-                    Made with <FcLike /> &nbsp;  Developed By <a href="https://github.com/Ahsan2001" target="_blank">M. Ahsan Shaikh</a>
+                    Made with <FcLike /> &nbsp;  Developed By Aiman Adil
                 </div>
                 <div className="socialIcons">
                     <span className="icon">
@@ -54,5 +54,6 @@ const Footer = () => {
         </footer>
     );
 };
+
 
 export default Footer;
